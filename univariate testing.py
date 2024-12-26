@@ -5,5 +5,7 @@ import matplotlib.pyplot as plt
 expected_csv_loc = 'train.csv'
 df = pd.read_csv(expected_csv_loc)
 
+print("hello")
+
 print(df.head())
 
